@@ -32,7 +32,7 @@ body {
     border-radius: 8px;
     display: flex;
     flex-direction: row;
-    margin: auto;
+    margin: auto auto 10px auto;
 }
 
 .perfume-bottle {
