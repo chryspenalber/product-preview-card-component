@@ -52,7 +52,7 @@ body {
     gap: 1em;
 }
 
-h2 {
+.label {
     font-size: 0.8em;
     font-weight: 600;
     text-transform: uppercase;
@@ -60,7 +60,8 @@ h2 {
     letter-spacing: 1.5px;
 }
 
-h1, .price {
+h1,
+.price {
     font-family: 'Fraunces', serif;
     font-weight: 800;
     font-size: 1.8em;
@@ -104,8 +105,14 @@ button {
     gap: 10px;
 }
 
-button:hover, button:active {
+button:hover,
+button:active {
     background: var(--green-700);
+}
+
+button:focus {
+    outline: 2px solid var(--green-700);
+    outline-offset: 2px;
 }
 
 footer {
@@ -149,7 +156,7 @@ footer {
         background-image: url('../images/image-product-mobile.jpg');
         background-size: cover;
         background-position: top;
-        height: 300px; 
+        height: 300px;
     }
 
     .product-description {
